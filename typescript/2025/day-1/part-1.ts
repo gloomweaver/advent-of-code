@@ -1,9 +1,8 @@
-import { dirname, join } from "jsr:@std/path@1.1.3";
+import { dirname, join } from "@std/path";
 
-/// <reference types="npm:@types/parsimmon" />
-import Pars from "npm:parsimmon@1.18.1";
-import { match } from "npm:ts-pattern@5.9.0";
-import { function as F, array as A } from "npm:fp-ts@2.16.11";
+import Pars from "parsimmon";
+import { match } from "ts-pattern";
+import { function as F, array as A } from "fp-ts";
 
 import { remEuclid } from "../shared/math.ts";
 

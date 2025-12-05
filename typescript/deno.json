@@ -1,0 +1,9 @@
+{
+  "imports": {
+    "@std/path": "jsr:@std/path@^1.1.3",
+    "@types/parsimmon": "npm:@types/parsimmon@^1.10.9",
+    "fp-ts": "npm:fp-ts@^2.16.11",
+    "parsimmon": "npm:parsimmon@^1.18.1",
+    "ts-pattern": "npm:ts-pattern@^5.9.0"
+  }
+}
