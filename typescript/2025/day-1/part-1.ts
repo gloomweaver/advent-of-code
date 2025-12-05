@@ -47,4 +47,6 @@ async function main() {
   console.log(solvePart1(input.trim()));
 }
 
-main();
+if (import.meta.main) {
+  main();
+}
